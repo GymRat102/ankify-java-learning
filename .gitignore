@@ -26,8 +26,3 @@ gradle.properties
 
 ### Don't ignore ###
 !gradle-wrapper.jar
-
-api-service/src/main/resources/bootstrap-local.yaml
-consumer.properties
-producer.properties
-sample-nomination.json
