@@ -1,0 +1,1 @@
+learn java-core book using spaced repetition software Anki
