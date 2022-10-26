@@ -6,6 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class AnkiPlayground {
 
@@ -31,6 +32,35 @@ public class AnkiPlayground {
         System.out.println(until);
         System.out.println(leapYear);
         System.out.println(dayOfWeek);
+
+        // String join
+        String s = String.join(" / ", "S", "X", "XL");
+        System.out.println(s);
+
+        // code point
+        String a = "aab";
+        int i = a.codePointAt(2);
+        System.out.println(i);
+
+        String x = String.join(", ", "a", "b");
+        System.out.println(x);
+
+        // scanner
+
+        Scanner in = new Scanner(System.in);
+        int q = in.nextInt();
+        System.out.println(q);
+
+        // String builder
+        StringBuilder sb = new StringBuilder();
+        String first = in.nextLine();
+        String second = in.nextLine();
+
+        sb.append(first);
+        sb.append(second);
+
+        System.out.println(sb.toString());
+
 
     }
 }
