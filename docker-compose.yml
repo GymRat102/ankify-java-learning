@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  core-java-jdbc-db:
+    image: mysql:8.0.22
+    restart: always
+    container_name: core_java_jdbc_db
+    environment:
+      MYSQL_ROOT_PASSWORD: "p@ssword"
+      MYSQL_DATABASE: "COREJAVA"
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./data:/var/lib/mysql
