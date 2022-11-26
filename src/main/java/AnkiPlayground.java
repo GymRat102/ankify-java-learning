@@ -60,7 +60,5 @@ public class AnkiPlayground {
         sb.append(second);
 
         System.out.println(sb.toString());
-
-
     }
 }
